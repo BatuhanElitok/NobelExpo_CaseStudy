@@ -1,3 +1,4 @@
+
 # Trade Fair Company Data Scraper
 
 ## Overview
@@ -160,15 +161,89 @@ The consolidated company data includes the following fields:
 * The contact information collector uses random delays and user agent rotation to avoid rate limiting.
 * Unicode issues with Turkish characters are specifically handled using the `clean_unicode_issues` function.
 
-## Challenges Faced
+## Project Deliverables
 
-- **CAPTCHA Issues**: Finding suitable proxies was difficult, resulting in frequent CAPTCHA challenges. The solution implemented is to pause the code when a CAPTCHA appears, allowing for manual resolution before continuing (pressing Enter to resume the script), or using proxies with Google access.
-- **Account Requirements**: The AYMOD scraper requires login credentials that need to be configured in the code before running.
-- **Contact Information Accuracy**: The contact information extraction is not 100% accurate - there are occasional issues with phone number extraction or fax numbers being incorrectly identified as phone numbers.
+This project includes the following deliverables:
 
-## Requirements
+1. **Excel Files**
+   * `data/output/aymod_companies.xlsx` - AYMOD fair exhibitor data
+   * `data/output/aysaf_companies.xlsx` - AYSAF fair exhibitor data
+   * `data/output/gapshoes_companies.xlsx` - GAPSHOES fair exhibitor data
+   * `data/output/sawo_companies.xlsx` - SAWO fair exhibitor data
+   * `data/output/shoexpo_companies.xlsx` - SHOEXPO fair exhibitor data
+   * `data/output/all_companies_merged.xlsx` - Consolidated data from all fairs
+   * `data/output/all_companies_updated.xlsx` - Final dataset with enhanced contact information
+2. **Code Files**
+   * Python scripts in the `scrapers/` directory for each fair
+   * Utility modules in the `utils/` directory for data processing
+3. **Documentation**
+   * This README file with detailed information about the project
+   * Comments in the code documenting functionality
+4. **Data Collection Process Flow**
 
-To install all dependencies, create a requirements.txt file with:
+```
+┌─────────────────┐     ┌──────────────────┐     ┌─────────────────────┐
+│  PDF Scrapers   │     │   Web Scrapers   │     │  Fair Event Scraper │
+│  - AYSAF        │     │   - AYMOD        │     │  - Trade fair       │
+│  - GAPSHOES     │────▶│                  │────▶│    calendar data    │
+│  - SAWO         │     │                  │     │                     │
+│  - SHOEXPO      │     │                  │     │                     │
+└─────────────────┘     └──────────────────┘     └─────────────────────┘
+         │                       │                          │
+         │                       │                          │
+         ▼                       ▼                          ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                     merge_company_data.py                           │
+│  - Combines all individual fair data                                │
+│  - Merges duplicates                                                │
+│  - Standardizes fields                                              │
+└─────────────────────────────────────────────────────────────────────┘
+                                │
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                    contact_info_collector.py                        │
+│  - Searches for company websites using Google                       │
+│  - Extracts contact information from websites                       │
+│  - Handles CAPTCHA challenges and proxies                           │
+│  - Updates the consolidated dataset                                 │
+└─────────────────────────────────────────────────────────────────────┘
+                                │
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                    all_companies_updated.xlsx                       │
+│  - Final dataset with complete company information                  │
+│  - Ready for analysis and business development                      │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+## Automation Techniques Used
+
+The project utilizes several automation techniques:
+
+1. **Web Scraping**
+   * Selenium for browser automation
+   * BeautifulSoup for HTML parsing
+   * Handling login forms and navigation
+   * Extracting structured data from web pages
+2. **PDF Data Extraction**
+   * PyPDF2 for reading PDF files
+   * Text parsing and pattern recognition
+   * Multiple fallback strategies for different PDF formats
+3. **Data Processing**
+   * Pandas for data manipulation and storage
+   * Deduplication and standardization
+   * Merging related data from different sources
+4. **Web Search Automation**
+   * Proxy rotation and user agent randomization
+   * CAPTCHA detection and handling
+   * Managed delays to avoid rate limiting
+5. **Error Handling and Resilience**
+   * Robust exception handling
+   * Incremental progress saving
+   * Multiple parsing strategies for different formats
+     To install all dependencies, create a requirements.txt file with:
 
 ```
 pandas

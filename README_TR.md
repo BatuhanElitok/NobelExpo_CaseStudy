@@ -1,3 +1,4 @@
+
 # Fuar Şirket Veri Scraper'ı
 
 ## Genel Bakış
@@ -161,12 +162,86 @@ Konsolide şirket verileri aşağıdaki alanları içerir:
 * İletişim bilgileri toplayıcısı, hız sınırlamasından kaçınmak için rastgele gecikmeler ve kullanıcı ajan rotasyonu kullanır.
 * Türkçe karakterlerle ilgili Unicode sorunları, `clean_unicode_issues` fonksiyonu kullanılarak özel olarak ele alınır.
 
-## Karşılaşılan Zorluklar
+## Proje Çıktıları
 
-- **CAPTCHA Sorunları**: Uygun proxy bulamadığım için sıklıkla CAPTCHA'ya yakalanma sorunu yaşadım. Uygulanan çözüm, CAPTCHA görüldüğünde kodu durdurup, CAPTCHA'yı elle çözdükten sonra devam etmek için Enter tuşuna basmak veya Google erişimi olan proxy'ler kullanmaktır.
-- **Hesap Gereksinimleri**: AYMOD scraper'ı için sisteme giriş yapacak hesap bilgilerinin kod içerisinde düzenlenmesi gerekmektedir.
-- **İletişim Bilgisi Doğruluğu**: İletişim bilgileri çıkarma işlemi %100 doğru olmamakla beraber, telefon numarası hatası veya faks numarasının telefon numarası olarak alınması gibi sorunlar yaşanabilmektedir.
+Bu proje aşağıdaki çıktıları içermektedir:
 
-## Gereksinimler
+1. **Excel Dosyaları**
+   * `data/output/aymod_companies.xlsx` - AYMOD fuarı katılımcı verileri
+   * `data/output/aysaf_companies.xlsx` - AYSAF fuarı katılımcı verileri
+   * `data/output/gapshoes_companies.xlsx` - GAPSHOES fuarı katılımcı verileri
+   * `data/output/sawo_companies.xlsx` - SAWO fuarı katılımcı verileri
+   * `data/output/shoexpo_companies.xlsx` - SHOEXPO fuarı katılımcı verileri
+   * `data/output/all_companies_merged.xlsx` - Tüm fuarlardan birleştirilmiş veriler
+   * `data/output/all_companies_updated.xlsx` - Geliştirilmiş iletişim bilgileriyle son veri seti
+2. **Kod Dosyaları**
+   * Her fuar için `scrapers/` dizinindeki Python scriptleri
+   * Veri işleme için `utils/` dizinindeki yardımcı modüller
+3. **Dokümantasyon**
+   * Bu README dosyası ile projeyle ilgili detaylı bilgiler
+   * Fonksiyonları belgeleyen kod içi yorumlar
+4. **Veri Toplama Süreci Akış Şeması**
 
-Tüm bağımlılıkları kurmak için, `pip install -r requirements.txt` komutunu çalıştırabilirsiniz. Gerekli tüm paketler requirements.txt dosyasında listelenmiştir.
+```
+┌─────────────────┐     ┌──────────────────┐     ┌─────────────────────┐
+│  PDF Scraper'lar│     │  Web Scraper'lar │     │  Fuar Etkinlik      │
+│  - AYSAF        │     │   - AYMOD        │     │  Scraper'ı          │
+│  - GAPSHOES     │────▶│                  │────▶│  - Ticaret fuarı    │
+│  - SAWO         │     │                  │     │    takvim verileri  │
+│  - SHOEXPO      │     │                  │     │                     │
+└─────────────────┘     └──────────────────┘     └─────────────────────┘
+         │                       │                          │
+         │                       │                          │
+         ▼                       ▼                          ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                     merge_company_data.py                           │
+│  - Tüm bireysel fuar verilerini birleştirir                        │
+│  - Yinelenenleri birleştirir                                       │
+│  - Alanları standartlaştırır                                       │
+└─────────────────────────────────────────────────────────────────────┘
+                                │
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                    contact_info_collector.py                        │
+│  - Google kullanarak şirket web sitelerini arar                     │
+│  - Web sitelerinden iletişim bilgilerini çıkarır                    │
+│  - CAPTCHA zorluklarını ve proxy'leri yönetir                       │
+│  - Birleştirilmiş veri setini günceller                            │
+└─────────────────────────────────────────────────────────────────────┘
+                                │
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                    all_companies_updated.xlsx                       │
+│  - Tam şirket bilgileriyle nihai veri seti                         │
+│  - Analiz ve iş geliştirme için hazır                              │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+## Kullanılan Otomasyon Teknikleri
+
+Proje, çeşitli otomasyon tekniklerini kullanmaktadır:
+
+1. **Web Scraping**
+   * Tarayıcı otomasyonu için Selenium
+   * HTML ayrıştırma için BeautifulSoup
+   * Giriş formları ve navigasyon işleme
+   * Web sayfalarından yapılandırılmış veri çıkarma
+2. **PDF Veri Çıkarma**
+   * PDF dosyalarını okumak için PyPDF2
+   * Metin ayrıştırma ve desen tanıma
+   * Farklı PDF formatları için çoklu yedek stratejiler
+3. **Veri İşleme**
+   * Veri manipülasyonu ve depolama için Pandas
+   * Yineleme önleme ve standartlaştırma
+   * Farklı kaynaklardan ilgili verileri birleştirme
+4. **Web Arama Otomasyonu**
+   * Proxy rotasyonu ve kullanıcı ajanı rastgeleleştirme
+   * CAPTCHA tespiti ve işleme
+   * Hız sınırlamalarını önlemek için yönetilen gecikmeler
+5. **Hata İşleme ve Esneklik**
+   * Güçlü istisna işleme
+   * Aşamalı ilerleme kaydetme
+   * Farklı formatlar için çoklu ayrıştırma stratejileri
+     Tüm bağımlılıkları kurmak için, `pip install -r requirements.txt` komutunu çalıştırabilirsiniz. Gerekli tüm paketler requirements.txt dosyasında listelenmiştir.
