@@ -31,12 +31,10 @@ USER_AGENTS = [
 
 # Proxy listesi
 PROXIES = [
-    '5.161.146.73:24079',
-    '51.210.111.216:16466'
+    'example:port',
 ]
 
 def clean_unicode_issues(text):
-    """Unicode sorunlarını temizler"""
     if not isinstance(text, str):
         return text
         
@@ -61,18 +59,15 @@ def setup_opera_driver(headless=False):
     options = Options()
     
     if headless:
-        options.add_argument("--headless")  # Görünmez modda çalıştır
+        options.add_argument("--headless")  
     
-    # Rastgele user agent seç
     user_agent = random.choice(USER_AGENTS)
     options.add_argument(f"user-agent={user_agent}")
     
-    # Rastgele proxy seç
     proxy = random.choice(PROXIES)
     options.add_argument(f'--proxy-server=http://{proxy}')
     logging.info(f"Kullanılan proxy: {proxy}")
     
-    # Opera GX ayarları (Chromium tabanlı)
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option("useAutomationExtension", False)
@@ -80,8 +75,7 @@ def setup_opera_driver(headless=False):
     options.add_argument("--disable-web-security")
     options.add_argument("--disable-infobars")
     
-    # Opera GX'in yolunu belirleme (Windows için örnek, kendi yolunuzu belirtmelisiniz)
-    opera_path = "C:\\Users\\KULLANICI_ADI\\AppData\\Local\\Programs\\Opera GX\\opera.exe"  # Bu yolu kendi sisteminize göre değiştirin
+    opera_path = "C:\\Users\\KULLANICI_ADI\\AppData\\Local\\Programs\\Opera GX\\opera.exe"  
     if not os.path.exists(opera_path):
         logging.warning(f"Opera GX belirtilen yolda bulunamadı: {opera_path}")
         logging.info("Sistem tarafından tespit edilebilen Opera GX kullanılacak")
@@ -89,8 +83,7 @@ def setup_opera_driver(headless=False):
         options.binary_location = opera_path
     
     try:
-        # Chrome Driver yolu (Opera GX'in kullandığı Chromium sürümüne uygun olmalı)
-        driver_path = "./chromedriver.exe"  # Windows için .exe uzantısı, diğer sistemlerde gerekli değil
+        driver_path = "./chromedriver.exe"  
         
         if not os.path.exists(driver_path):
             logging.error(f"ChromeDriver belirtilen yolda bulunamadı: {driver_path}")
@@ -110,9 +103,6 @@ def setup_opera_driver(headless=False):
     return driver
 
 def get_company_website(driver, company_name, country):
-    """
-    Şirket web sitesini manuel arama yoluyla bulmaya çalışır
-    """
     if pd.isna(country):
         query = f"{company_name} official website"
     else:
@@ -205,9 +195,6 @@ def get_company_website(driver, company_name, country):
         return None
 
 def extract_contact_info(driver, website_url):
-    """
-    Verilen web sitesinden iletişim bilgilerini çıkarır (sadece telefon ve email)
-    """
     if not website_url:
         return {}
     
@@ -275,11 +262,8 @@ def extract_contact_info(driver, website_url):
         return contact_info
 
 def process_companies():
-    """
-    Ana işleme fonksiyonu
-    """
-    input_file = 'Tüm_Firmalar_Birleşik.xlsx'
-    output_file = 'Tüm_Firmalar_Birleşik_Guncel.xlsx'
+    input_file = 'data/output/all_companies_merged.xlsx'
+    output_file = 'data/output/all_companies_updated.xlsx'
     
     if not os.path.exists(input_file):
         logging.error(f"Giriş dosyası bulunamadı: {input_file}")

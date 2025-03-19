@@ -5,7 +5,7 @@ import numpy as np
 def Gapshoes_scrape():
     all_firms = []
     
-    pdf_path = "katilimci_liste\Gapshoes.pdf"
+    pdf_path = "data/input\Gapshoes.pdf"
     
     try:
         with open(pdf_path, 'rb') as file:
@@ -69,7 +69,7 @@ def Gapshoes_scrape():
     
     firma_list = firma_list.drop_duplicates(subset=['Firma Adı'], keep='first')
     
-    firma_list.to_excel('Firma_katılımcı_liste/Gapshoes_Firmalar.xlsx', index=False)
+    firma_list.to_excel('data/output/gapshoes_companies.xlsx', index=False)
     
     return firma_list
 

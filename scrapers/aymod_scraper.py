@@ -38,8 +38,8 @@ def scrape_fuar():
         password = driver.find_elements(By.CLASS_NAME, 'ps-5')[2]
         login_btn = driver.find_element(By.XPATH, ('/html/body/div[1]/main/div[1]/div[2]/div[1]/div/div/form/button'))
 
-        login.send_keys('batuhan.elitok@outlook.com')
-        password.send_keys('COQSJG')
+        login.send_keys('email')
+        password.send_keys('password')
         login_btn.send_keys(Keys.ENTER)
         time.sleep(2)
         
@@ -136,7 +136,7 @@ def scrape_fuar():
         
     firma_list = firma_list.drop_duplicates(subset=['Firma Adı'], keep='first')
     
-    firma_list.to_excel("Firma_katılımcı_liste/Aymod_Firmalar.xlsx", index=False)
+    firma_list.to_excel("data/output/aymod_companies.xlsx", index=False)
     print(f"Toplam {len(firma_list)} firma bilgisi Excel'e kaydedildi.")
 
 if __name__ == "__main__":

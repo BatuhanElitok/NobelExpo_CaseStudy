@@ -20,7 +20,7 @@ def clean_unicode_issues(text):
 
 def AA_scrape():
     all_firms = []
-    pdf_path = "katilimci_liste_pdf/lista_wystawców_sawo_2024-04-02.pdf"
+    pdf_path = "data/input/lista_wystawców_sawo_2024-04-02.pdf"
     try:
         with open(pdf_path, 'rb') as file:
             pdf_reader = PyPDF2.PdfReader(file)
@@ -210,7 +210,7 @@ def AA_scrape():
         }
         firma_list = firma_list.append(firma_info, ignore_index=True)
     firma_list = firma_list.drop_duplicates(subset=['Firma Adı'], keep='first')
-    firma_list.to_excel('Firma_katılımcı_liste/Sawo_Firmalar.xlsx', index=False)
+    firma_list.to_excel('data/output/sawo_companies.xlsx', index=False)
     return firma_list
 
 AA_scrape()

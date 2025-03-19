@@ -10,12 +10,12 @@ def combine_company_lists():
     Sets 'Adres' field to null for AA fair companies.
     """
     # Get all xlsx files in the directory
-    xlsx_path = 'Firma_katılımcı_liste/*.xlsx'
+    xlsx_path = 'data/output/*.xlsx'
     all_files = glob.glob(xlsx_path)
     
-    # Exclude the combined file if it exists
-    combined_file = 'Firma_katılımcı_liste/Tüm_Firmalar_Birleşik.xlsx'
-    all_files = [file for file in all_files if file != combined_file]
+    # Exclude the combined file and files starting with "all_" if they exist
+    combined_file = 'data/output/all_companies_merged.xlsx'
+    all_files = [file for file in all_files if file != combined_file and not os.path.basename(file).startswith('all_')]
     
     if not all_files:
         print(f"No xlsx files found in the path: {xlsx_path}")
@@ -93,7 +93,7 @@ def combine_company_lists():
     result = result.sort_values(by="Firma Adı")
     
     # Save the combined data to a new Excel file
-    output_path = 'Tüm_Firmalar_Birleşik.xlsx'
+    output_path = 'data/output/all_companies_merged.xlsx'
     result.to_excel(output_path, index=False)
     
     print(f"Successfully combined {len(all_dfs)} files into {output_path}")

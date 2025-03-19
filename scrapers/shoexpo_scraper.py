@@ -8,7 +8,7 @@ def shoexpo_scrape():
     all_brands = []
     brands = []
     
-    pdf_path = "katilimci_liste/SHOEXPO-KATILIMCI-LISTESI.pdf"
+    pdf_path = "data/input/SHOEXPO-KATILIMCI-LISTESI.pdf"
     
     try:
         with open(pdf_path, 'rb') as file:
@@ -65,6 +65,6 @@ def shoexpo_scrape():
     
     firma_list = firma_list.drop_duplicates(subset=['Firma Adı'], keep='first')
     
-    firma_list.to_excel('Firma_katılımcı_liste/Shoexpo_Firmalar.xlsx', index=False)
+    firma_list.to_excel('data/output/shoexpo_companies.xlsx', index=False)
 
 shoexpo_scrape()

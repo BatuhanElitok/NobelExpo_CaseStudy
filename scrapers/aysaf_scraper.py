@@ -18,7 +18,7 @@ def clean_unicode_issues(text):
 
 def Aysaf_scrape():
     all_firms = []
-    pdf_path = "katilimci_liste_pdf/AYSAF_Exhibitor_List.pdf"
+    pdf_path = "data/input/AYSAF_Exhibitor_List.pdf"
     try:
         with open(pdf_path, 'rb') as file:
             pdf_reader = PyPDF2.PdfReader(file)
@@ -112,7 +112,7 @@ def Aysaf_scrape():
     for col in firma_list.columns:
         if firma_list[col].dtype == 'object':
             firma_list[col] = firma_list[col].apply(lambda x: clean_unicode_issues(x))
-    firma_list.to_excel('Firma_katılımcı_liste/Aysaf_Firmalar.xlsx', index=False)
+    firma_list.to_excel('data/output/aysaf_companies.xlsx', index=False)
     return firma_list
 
 Aysaf_scrape()

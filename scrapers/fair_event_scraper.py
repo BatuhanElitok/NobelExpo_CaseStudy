@@ -71,6 +71,6 @@ def scrape_fuar():
 
     event_list = event_list.drop_duplicates(subset=['Fuar_website'],keep='first')
 
-    event_list.to_excel("Fuar_2024.xlsx",index=True,merge_cells=False)
+    event_list.to_excel("data/events/fairs_2024.xlsx",index=True,merge_cells=False)
 
 scrape_fuar()
