@@ -1,838 +1,120 @@
-2025-03-18 15:27:17,339 - INFO - === Þirket Ýletiþim Bilgisi Toplama Baþlatýlýyor ===
-2025-03-18 15:27:17,596 - INFO - Excel dosyasý okundu. Toplam 273 kayýt.
-2025-03-18 15:27:17,631 - INFO - Kayýtlý ilerleme bulundu. 24. kayýttan devam ediliyor.
-2025-03-18 15:27:17,631 - WARNING - Opera GX belirtilen yolda bulunamadý: C:\Users\KULLANICI_ADI\AppData\Local\Programs\Opera GX\opera.exe
-2025-03-18 15:27:17,631 - INFO - Sistem tarafýndan tespit edilebilen Opera GX kullanýlacak
-2025-03-18 15:27:19,254 - INFO - Opera GX tarayýcýsý baþlatýldý (ChromeDriver ile)
-2025-03-18 15:27:19,258 - INFO - Opera GX tarayýcýsý baþlatýldý.
-2025-03-18 15:27:19,258 - INFO - Ýþlenecek 249 kayýt kaldý.
-2025-03-18 15:27:19,259 - INFO - [25/273] Ýþleniyor: BENETEX SP. Z O.O.
-2025-03-18 15:27:19,260 - INFO - Aranan þirket: BENETEX SP. Z O.O.
-2025-03-18 15:27:24,565 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
+2025-03-19 05:18:34,140 - INFO - === Þirket Ýletiþim Bilgisi Toplama Baþlatýlýyor ===
+2025-03-19 05:18:34,526 - INFO - Excel dosyasý okundu. Toplam 1082 kayýt.
+2025-03-19 05:18:34,638 - INFO - Kayýtlý ilerleme bulundu. 1039. kayýttan devam ediliyor.
+2025-03-19 05:18:34,638 - INFO - Kullanýlan proxy: 51.210.111.216:16466
+2025-03-19 05:18:34,638 - WARNING - Opera GX belirtilen yolda bulunamadý: C:\Users\KULLANICI_ADI\AppData\Local\Programs\Opera GX\opera.exe
+2025-03-19 05:18:34,639 - INFO - Sistem tarafýndan tespit edilebilen Opera GX kullanýlacak
+2025-03-19 05:18:35,765 - INFO - Opera GX tarayýcýsý baþlatýldý (ChromeDriver ile)
+2025-03-19 05:18:35,767 - INFO - Opera GX tarayýcýsý baþlatýldý.
+2025-03-19 05:18:35,767 - INFO - Ýþlenecek 43 kayýt kaldý.
+2025-03-19 05:18:35,769 - INFO - [1040/1082] Ýþleniyor: ÖZ MURAT PLASTÝK-RECEP KEMAL ÞÝRÝKOÐLU
+2025-03-19 05:18:35,769 - INFO - Aranan þirket: ÖZ MURAT PLASTÝK-RECEP KEMAL ÞÝRÝKOÐLU
+2025-03-19 05:18:51,167 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
   (Session info: chrome=134.0.6998.89)
 Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
+	GetHandleVerifier [0x00007FF65AF3FE45+26629]
+	(No symbol) [0x00007FF65AEA6010]
+	(No symbol) [0x00007FF65AD3931A]
+	(No symbol) [0x00007FF65AD8F8E7]
+	(No symbol) [0x00007FF65AD8FB1C]
+	(No symbol) [0x00007FF65ADE34A7]
+	(No symbol) [0x00007FF65ADB7AEF]
+	(No symbol) [0x00007FF65ADE0169]
+	(No symbol) [0x00007FF65ADB7883]
+	(No symbol) [0x00007FF65AD80550]
+	(No symbol) [0x00007FF65AD81803]
+	GetHandleVerifier [0x00007FF65B2972BD+3529853]
+	GetHandleVerifier [0x00007FF65B2ADA22+3621858]
+	GetHandleVerifier [0x00007FF65B2A24D3+3575443]
+	GetHandleVerifier [0x00007FF65B00B77A+860474]
+	(No symbol) [0x00007FF65AEB088F]
+	(No symbol) [0x00007FF65AEACBC4]
+	(No symbol) [0x00007FF65AEACD66]
+	(No symbol) [0x00007FF65AE9C2C9]
 	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
 	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
 
-2025-03-18 15:27:39,311 - INFO - Bulunan web sitesi (filtrelenmiþ): https://benetex.pl/
-2025-03-18 15:27:39,312 - INFO - Web sitesi ziyaret ediliyor: https://benetex.pl/
-2025-03-18 15:27:44,685 - INFO - Ýletiþim sayfasý bulundu: https://benetex.pl/#kontakt
-2025-03-18 15:27:47,680 - INFO - Ýletiþim sayfasý yüklendi
-2025-03-18 15:27:47,769 - INFO - Telefon numarasý bulundu: 458 -
-2025-03-18 15:27:47,770 - INFO - E-posta adresi bulundu: biuro@benetex.pl
-2025-03-18 15:27:47,885 - INFO - Ýlerleme kaydedildi: 25/273
-2025-03-18 15:27:47,885 - INFO - Sonraki þirket için 11.8 saniye bekleniyor...
-2025-03-18 15:27:59,728 - INFO - [26/273] Ýþleniyor: BENNON
-2025-03-18 15:27:59,728 - INFO - Aranan þirket: BENNON
-2025-03-18 15:28:02,991 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
+2025-03-19 05:18:51,176 - ERROR - Arama kutusu hatasý: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="q"]"}
   (Session info: chrome=134.0.6998.89)
 Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
+	GetHandleVerifier [0x00007FF65AF3FE45+26629]
+	(No symbol) [0x00007FF65AEA6010]
+	(No symbol) [0x00007FF65AD3931A]
+	(No symbol) [0x00007FF65AD8F8E7]
+	(No symbol) [0x00007FF65AD8FB1C]
+	(No symbol) [0x00007FF65ADE34A7]
+	(No symbol) [0x00007FF65ADB7AEF]
+	(No symbol) [0x00007FF65ADE0169]
+	(No symbol) [0x00007FF65ADB7883]
+	(No symbol) [0x00007FF65AD80550]
+	(No symbol) [0x00007FF65AD81803]
+	GetHandleVerifier [0x00007FF65B2972BD+3529853]
+	GetHandleVerifier [0x00007FF65B2ADA22+3621858]
+	GetHandleVerifier [0x00007FF65B2A24D3+3575443]
+	GetHandleVerifier [0x00007FF65B00B77A+860474]
+	(No symbol) [0x00007FF65AEB088F]
+	(No symbol) [0x00007FF65AEACBC4]
+	(No symbol) [0x00007FF65AEACD66]
+	(No symbol) [0x00007FF65AE9C2C9]
 	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
 	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
 
-2025-03-18 15:28:15,531 - INFO - Bulunan web sitesi (filtrelenmiþ): https://www.bennongroup.cz/?lang=en
-2025-03-18 15:28:15,532 - INFO - Web sitesi ziyaret ediliyor: https://www.bennongroup.cz/?lang=en
-2025-03-18 15:28:22,041 - INFO - Ýletiþim sayfasý bulundu: https://www.bennongroup.cz/o-nas/clanky
-2025-03-18 15:28:24,527 - INFO - Ýletiþim sayfasý yüklendi
-2025-03-18 15:28:24,573 - INFO - Telefon numarasý bulundu: 
-2025-03-18 15:28:24,573 - INFO - E-posta adresi bulundu: info@bennon.cz
-2025-03-18 15:28:24,645 - INFO - Ýlerleme kaydedildi: 26/273
-2025-03-18 15:28:24,645 - INFO - Sonraki þirket için 13.2 saniye bekleniyor...
-2025-03-18 15:28:37,836 - INFO - [27/273] Ýþleniyor: BHP VR SP. Z O.O.
-2025-03-18 15:28:37,837 - INFO - Aranan þirket: BHP VR SP. Z O.O.
-2025-03-18 15:28:42,318 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
+2025-03-19 05:18:51,220 - ERROR - Tüm arama kutusu seçicileri baþarýsýz oldu
+2025-03-19 05:18:51,410 - INFO - Ýlerleme kaydedildi: 1040/1082
+2025-03-19 05:18:51,411 - INFO - Sonraki þirket için 12.6 saniye bekleniyor...
+2025-03-19 05:19:04,024 - INFO - [1041/1082] Ýþleniyor: ÖZ ÜÇ KARDEÞLER AYAKKABI VE HALI- ÖNDER ÞENDAL
+2025-03-19 05:19:04,024 - INFO - Aranan þirket: ÖZ ÜÇ KARDEÞLER AYAKKABI VE HALI- ÖNDER ÞENDAL
+2025-03-19 05:19:15,075 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
   (Session info: chrome=134.0.6998.89)
 Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
+	GetHandleVerifier [0x00007FF65AF3FE45+26629]
+	(No symbol) [0x00007FF65AEA6010]
+	(No symbol) [0x00007FF65AD3931A]
+	(No symbol) [0x00007FF65AD8F8E7]
+	(No symbol) [0x00007FF65AD8FB1C]
+	(No symbol) [0x00007FF65ADE34A7]
+	(No symbol) [0x00007FF65ADB7AEF]
+	(No symbol) [0x00007FF65ADE0169]
+	(No symbol) [0x00007FF65ADB7883]
+	(No symbol) [0x00007FF65AD80550]
+	(No symbol) [0x00007FF65AD81803]
+	GetHandleVerifier [0x00007FF65B2972BD+3529853]
+	GetHandleVerifier [0x00007FF65B2ADA22+3621858]
+	GetHandleVerifier [0x00007FF65B2A24D3+3575443]
+	GetHandleVerifier [0x00007FF65B00B77A+860474]
+	(No symbol) [0x00007FF65AEB088F]
+	(No symbol) [0x00007FF65AEACBC4]
+	(No symbol) [0x00007FF65AEACD66]
+	(No symbol) [0x00007FF65AE9C2C9]
 	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
 	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
 
-2025-03-18 15:28:57,792 - INFO - Bulunan web sitesi (filtrelenmiþ): https://www.bhp.com/
-2025-03-18 15:28:57,792 - INFO - Web sitesi ziyaret ediliyor: https://www.bhp.com/
-2025-03-18 15:29:04,539 - INFO - Ýletiþim sayfasý bulundu: https://www.bhp.com/contact-us
-2025-03-18 15:29:10,703 - INFO - Ýletiþim sayfasý yüklendi
-2025-03-18 15:29:10,876 - INFO - Ýlerleme kaydedildi: 27/273
-2025-03-18 15:29:10,876 - INFO - Sonraki þirket için 10.5 saniye bekleniyor...
-2025-03-18 15:29:21,388 - INFO - [28/273] Ýþleniyor: BICAP / CAZATURIFICIO 5BI SRL
-2025-03-18 15:29:21,388 - INFO - Aranan þirket: BICAP / CAZATURIFICIO 5BI SRL
-2025-03-18 15:29:25,177 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
+2025-03-19 05:19:15,079 - ERROR - Arama kutusu hatasý: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="q"]"}
   (Session info: chrome=134.0.6998.89)
 Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
+	GetHandleVerifier [0x00007FF65AF3FE45+26629]
+	(No symbol) [0x00007FF65AEA6010]
+	(No symbol) [0x00007FF65AD3931A]
+	(No symbol) [0x00007FF65AD8F8E7]
+	(No symbol) [0x00007FF65AD8FB1C]
+	(No symbol) [0x00007FF65ADE34A7]
+	(No symbol) [0x00007FF65ADB7AEF]
+	(No symbol) [0x00007FF65ADE0169]
+	(No symbol) [0x00007FF65ADB7883]
+	(No symbol) [0x00007FF65AD80550]
+	(No symbol) [0x00007FF65AD81803]
+	GetHandleVerifier [0x00007FF65B2972BD+3529853]
+	GetHandleVerifier [0x00007FF65B2ADA22+3621858]
+	GetHandleVerifier [0x00007FF65B2A24D3+3575443]
+	GetHandleVerifier [0x00007FF65B00B77A+860474]
+	(No symbol) [0x00007FF65AEB088F]
+	(No symbol) [0x00007FF65AEACBC4]
+	(No symbol) [0x00007FF65AEACD66]
+	(No symbol) [0x00007FF65AE9C2C9]
 	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
 	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
 
-2025-03-18 15:29:39,137 - INFO - Bulunan web sitesi (filtrelenmiþ): https://www.bicap.it/
-2025-03-18 15:29:39,137 - INFO - Web sitesi ziyaret ediliyor: https://www.bicap.it/
-2025-03-18 15:29:45,627 - INFO - Ýletiþim sayfasý bulundu: https://www.linkedin.com/company/bicap-calzaturificio-5-bi/
-2025-03-18 15:29:50,109 - INFO - Ýletiþim sayfasý yüklendi
-2025-03-18 15:29:50,614 - INFO - Telefon numarasý bulundu: 1.049
-2025-03-18 15:29:50,678 - INFO - Ýlerleme kaydedildi: 28/273
-2025-03-18 15:29:50,678 - INFO - Sonraki þirket için 10.4 saniye bekleniyor...
-2025-03-18 15:30:01,116 - INFO - [29/273] Ýþleniyor: BIZARRE INTERNATIONAL
-2025-03-18 15:30:01,116 - INFO - Aranan þirket: BIZARRE INTERNATIONAL
-2025-03-18 15:30:04,393 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:30:19,443 - INFO - Bulunan web sitesi (filtrelenmiþ): https://www.bizarre-intl.com/
-2025-03-18 15:30:19,443 - INFO - Web sitesi ziyaret ediliyor: https://www.bizarre-intl.com/
-2025-03-18 15:30:28,099 - INFO - Ýletiþim sayfasý bulundu: https://www.bizarre-intl.com/contact.html
-2025-03-18 15:30:31,900 - INFO - Ýletiþim sayfasý yüklendi
-2025-03-18 15:30:32,002 - INFO - Telefon numarasý bulundu: +92 (52) 3541125
-2025-03-18 15:30:32,002 - INFO - E-posta adresi bulundu: info@bizarre-intl.com
-2025-03-18 15:30:32,153 - INFO - Ýlerleme kaydedildi: 29/273
-2025-03-18 15:30:32,154 - INFO - Sonraki þirket için 10.1 saniye bekleniyor...
-2025-03-18 15:30:42,210 - INFO - [30/273] Ýþleniyor: BLAKLADER WORKWEAR SP. Z O. O.
-2025-03-18 15:30:42,210 - INFO - Aranan þirket: BLAKLADER WORKWEAR SP. Z O. O.
-2025-03-18 15:30:46,728 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:31:04,077 - INFO - Bulunan web sitesi (filtrelenmiþ): https://www.blaklader.com/
-2025-03-18 15:31:04,078 - INFO - Web sitesi ziyaret ediliyor: https://www.blaklader.com/
-2025-03-18 15:31:11,653 - INFO - Ýletiþim sayfasý bulundu: https://www.linkedin.com/company/bl-kl-der/
-2025-03-18 15:31:14,915 - INFO - Ýletiþim sayfasý yüklendi
-2025-03-18 15:31:15,226 - INFO - Ýlerleme kaydedildi: 30/273
-2025-03-18 15:31:15,229 - INFO - Sonraki þirket için 12.1 saniye bekleniyor...
-2025-03-18 15:31:27,355 - INFO - [31/273] Ýþleniyor: BOGMAR
-2025-03-18 15:31:27,355 - INFO - Aranan þirket: BOGMAR
-2025-03-18 15:31:33,092 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:31:46,125 - INFO - Bulunan web sitesi (filtrelenmiþ): https://www.dnb.com/business-directory/company-profiles.bogmar_traper_sp_z_o_o.12f83e6098ca304ab3cc0e6779635819.html
-2025-03-18 15:31:46,125 - INFO - Web sitesi ziyaret ediliyor: https://www.dnb.com/business-directory/company-profiles.bogmar_traper_sp_z_o_o.12f83e6098ca304ab3cc0e6779635819.html
-2025-03-18 15:31:51,573 - INFO - Telefon numarasý bulundu: 17.17423011
-2025-03-18 15:31:51,686 - INFO - Ýlerleme kaydedildi: 31/273
-2025-03-18 15:31:51,687 - INFO - Sonraki þirket için 10.5 saniye bekleniyor...
-2025-03-18 15:32:02,173 - INFO - [32/273] Ýþleniyor: BOPLAN POLSKA SP. Z O.O.
-2025-03-18 15:32:02,173 - INFO - Aranan þirket: BOPLAN POLSKA SP. Z O.O.
-2025-03-18 15:32:05,501 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:32:20,594 - INFO - Bulunan web sitesi (filtrelenmiþ): https://www.boplan.com/en-uk
-2025-03-18 15:32:20,594 - INFO - Web sitesi ziyaret ediliyor: https://www.boplan.com/en-uk
-2025-03-18 15:32:27,680 - INFO - Ýletiþim sayfasý bulundu: https://www.boplan.com/en-uk/contact
-2025-03-18 15:32:32,836 - INFO - Ýletiþim sayfasý yüklendi
-2025-03-18 15:32:33,300 - INFO - Telefon numarasý bulundu: 12
-8560
-2025-03-18 15:32:33,461 - INFO - Ýlerleme kaydedildi: 32/273
-2025-03-18 15:32:33,461 - INFO - Sonraki þirket için 12.3 saniye bekleniyor...
-2025-03-18 15:32:45,789 - INFO - [33/273] Ýþleniyor: BTL POLSKA SP. Z O.O.
-2025-03-18 15:32:45,789 - INFO - Aranan þirket: BTL POLSKA SP. Z O.O.
-2025-03-18 15:32:49,984 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:33:05,413 - INFO - Bulunan web sitesi (filtrelenmiþ): https://www.btlnet.pl/
-2025-03-18 15:33:05,414 - INFO - Web sitesi ziyaret ediliyor: https://www.btlnet.pl/
-2025-03-18 15:33:14,943 - INFO - Ýletiþim sayfasý bulundu: https://www.linkedin.com/company/btl-polska
-2025-03-18 15:33:19,552 - INFO - Ýletiþim sayfasý yüklendi
-2025-03-18 15:33:19,730 - INFO - Ýlerleme kaydedildi: 33/273
-2025-03-18 15:33:19,730 - INFO - Sonraki þirket için 13.3 saniye bekleniyor...
-2025-03-18 15:33:32,997 - INFO - [34/273] Ýþleniyor: CANIS SAFETY A.S. CZECHY
-2025-03-18 15:33:32,997 - INFO - Aranan þirket: CANIS SAFETY A.S. CZECHY
-2025-03-18 15:33:36,282 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:33:53,788 - INFO - Bulunan web sitesi (filtrelenmiþ): https://www.canis.cz/
-2025-03-18 15:33:53,788 - INFO - Web sitesi ziyaret ediliyor: https://www.canis.cz/
-2025-03-18 15:34:06,384 - INFO - Ýletiþim sayfasý bulundu: https://www.canis.cz/kontakty-na-vedeni-spolecnosti
-2025-03-18 15:34:09,966 - INFO - Ýletiþim sayfasý yüklendi
-2025-03-18 15:34:10,250 - INFO - Telefon numarasý bulundu: 800 887 777
-2025-03-18 15:34:10,250 - INFO - E-posta adresi bulundu: eshop@canis.cz
-2025-03-18 15:34:10,357 - INFO - Ýlerleme kaydedildi: 34/273
-2025-03-18 15:34:10,358 - INFO - Sonraki þirket için 11.1 saniye bekleniyor...
-2025-03-18 15:34:21,473 - INFO - [35/273] Ýþleniyor: CAROLINA LEATHER INDUSTRY
-2025-03-18 15:34:21,473 - INFO - Aranan þirket: CAROLINA LEATHER INDUSTRY
-2025-03-18 15:34:24,976 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:34:42,005 - INFO - Bulunan web sitesi (filtrelenmiþ): https://carolina-leather.com/
-2025-03-18 15:34:42,006 - INFO - Web sitesi ziyaret ediliyor: https://carolina-leather.com/
-2025-03-18 15:34:53,740 - INFO - Ýletiþim sayfasý bulundu: https://carolina-leather.com/about/
-2025-03-18 15:35:00,660 - INFO - Ýletiþim sayfasý yüklendi
-2025-03-18 15:35:00,836 - INFO - Telefon numarasý bulundu: +92 52 - 3307352 -53
-2025-03-18 15:35:00,960 - INFO - Ýlerleme kaydedildi: 35/273
-2025-03-18 15:35:00,962 - INFO - Sonraki þirket için 14.2 saniye bekleniyor...
-2025-03-18 15:35:15,196 - INFO - [36/273] Ýþleniyor: CBR ROCK MASTER SP. Z O.O. SP.K.
-2025-03-18 15:35:15,196 - INFO - Aranan þirket: CBR ROCK MASTER SP. Z O.O. SP.K.
-2025-03-18 15:35:19,463 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:35:37,675 - INFO - Bulunan web sitesi (filtrelenmiþ): https://rockmaster.com.pl/en/
-2025-03-18 15:35:37,677 - INFO - Web sitesi ziyaret ediliyor: https://rockmaster.com.pl/en/
-2025-03-18 15:35:48,166 - INFO - Ýletiþim sayfasý bulundu: https://rockmaster.com.pl/en/about-us/
-2025-03-18 15:35:52,943 - INFO - Ýletiþim sayfasý yüklendi
-2025-03-18 15:35:53,094 - INFO - Telefon numarasý bulundu: +48 609 004 858
-2025-03-18 15:35:53,094 - INFO - E-posta adresi bulundu: szczepan.kroll@rockmaster.eu
-2025-03-18 15:35:53,215 - INFO - Ýlerleme kaydedildi: 36/273
-2025-03-18 15:35:53,215 - INFO - Sonraki þirket için 13.9 saniye bekleniyor...
-2025-03-18 15:36:07,068 - INFO - [37/273] Ýþleniyor: CENTRALNY INSTYTUT OCHRONY PRACY
-2025-03-18 15:36:07,068 - INFO - Aranan þirket: CENTRALNY INSTYTUT OCHRONY PRACY
-2025-03-18 15:36:10,816 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:36:27,466 - INFO - Bulunan web sitesi (filtrelenmiþ): https://m.ciop.pl/en
-2025-03-18 15:36:27,466 - INFO - Web sitesi ziyaret ediliyor: https://m.ciop.pl/en
-2025-03-18 15:36:34,248 - INFO - Ýletiþim sayfasý bulundu: https://m.ciop.pl/CIOPPortalWAR/appmanager/ciop/en?_nfpb=true&_pageLabel=P58400150771635445532884
-2025-03-18 15:36:39,825 - INFO - Ýletiþim sayfasý yüklendi
-2025-03-18 15:36:40,069 - INFO - Ýlerleme kaydedildi: 37/273
-2025-03-18 15:36:40,070 - INFO - Sonraki þirket için 13.5 saniye bekleniyor...
-2025-03-18 15:36:53,586 - INFO - [38/273] Ýþleniyor: CENTRUM NAUKOWO-BADAWCZE
-2025-03-18 15:36:53,586 - INFO - Aranan þirket: CENTRUM NAUKOWO-BADAWCZE
-2025-03-18 15:36:57,886 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:37:14,219 - WARNING - Hiçbir geçerli link bulunamadý
-2025-03-18 15:37:14,312 - INFO - Ýlerleme kaydedildi: 38/273
-2025-03-18 15:37:14,313 - INFO - Sonraki þirket için 14.4 saniye bekleniyor...
-2025-03-18 15:37:28,745 - INFO - [39/273] Ýþleniyor: nan
-2025-03-18 15:37:28,746 - INFO - Aranan þirket: nan
-2025-03-18 15:37:32,529 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:37:44,281 - WARNING - Hiçbir geçerli link bulunamadý
-2025-03-18 15:37:44,380 - INFO - Ýlerleme kaydedildi: 39/273
-2025-03-18 15:37:44,380 - INFO - Sonraki þirket için 12.3 saniye bekleniyor...
-2025-03-18 15:37:56,662 - INFO - [40/273] Ýþleniyor: CHEMSPLASH EUROPE LIMITED
-2025-03-18 15:37:56,663 - INFO - Aranan þirket: CHEMSPLASH EUROPE LIMITED
-2025-03-18 15:38:00,181 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:38:16,183 - WARNING - Hiçbir geçerli link bulunamadý
-2025-03-18 15:38:16,277 - INFO - Ýlerleme kaydedildi: 40/273
-2025-03-18 15:38:16,279 - INFO - Sonraki þirket için 10.5 saniye bekleniyor...
-2025-03-18 15:38:26,789 - INFO - [41/273] Ýþleniyor: CIXI DOBETTER FIREPROOF PRODUCTS CO.,LTD.
-2025-03-18 15:38:26,789 - INFO - Aranan þirket: CIXI DOBETTER FIREPROOF PRODUCTS CO.,LTD.
-2025-03-18 15:38:31,135 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:38:48,982 - WARNING - Hiçbir geçerli link bulunamadý
-2025-03-18 15:38:49,065 - INFO - Ýlerleme kaydedildi: 41/273
-2025-03-18 15:38:49,066 - INFO - Sonraki þirket için 13.7 saniye bekleniyor...
-2025-03-18 15:39:02,720 - INFO - [42/273] Ýþleniyor: COBA EUROPE GMBH
-2025-03-18 15:39:02,720 - INFO - Aranan þirket: COBA EUROPE GMBH
-2025-03-18 15:39:07,435 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:39:22,185 - WARNING - Hiçbir geçerli link bulunamadý
-2025-03-18 15:39:22,275 - INFO - Ýlerleme kaydedildi: 42/273
-2025-03-18 15:39:22,275 - INFO - Sonraki þirket için 10.4 saniye bekleniyor...
-2025-03-18 15:39:32,637 - INFO - [43/273] Ýþleniyor: COFRA SRL
-2025-03-18 15:39:32,637 - INFO - Aranan þirket: COFRA SRL
-2025-03-18 15:39:35,749 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:39:48,203 - WARNING - Hiçbir geçerli link bulunamadý
-2025-03-18 15:39:48,306 - INFO - Ýlerleme kaydedildi: 43/273
-2025-03-18 15:39:48,307 - INFO - Sonraki þirket için 13.2 saniye bekleniyor...
-2025-03-18 15:40:01,496 - INFO - [44/273] Ýþleniyor: CONCORDIA TEXTILES N.V.
-2025-03-18 15:40:01,497 - INFO - Aranan þirket: CONCORDIA TEXTILES N.V.
-2025-03-18 15:40:05,183 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:40:21,421 - WARNING - Hiçbir geçerli link bulunamadý
-2025-03-18 15:40:21,527 - INFO - Ýlerleme kaydedildi: 44/273
-2025-03-18 15:40:21,527 - INFO - Sonraki þirket için 14.0 saniye bekleniyor...
-2025-03-18 15:40:35,513 - INFO - [45/273] Ýþleniyor: CONTEX TEXTILE CO., LTD.
-2025-03-18 15:40:35,513 - INFO - Aranan þirket: CONTEX TEXTILE CO., LTD.
-2025-03-18 15:40:38,553 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:40:54,400 - WARNING - Hiçbir geçerli link bulunamadý
-2025-03-18 15:40:54,504 - INFO - Ýlerleme kaydedildi: 45/273
-2025-03-18 15:40:54,505 - INFO - Sonraki þirket için 12.1 saniye bekleniyor...
-2025-03-18 15:41:06,611 - INFO - [46/273] Ýþleniyor: CRIBSPOT INTERNATIONAL SP. Z O.O.
-2025-03-18 15:41:06,611 - INFO - Aranan þirket: CRIBSPOT INTERNATIONAL SP. Z O.O.
-2025-03-18 15:41:09,917 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:41:27,890 - WARNING - Hiçbir geçerli link bulunamadý
-2025-03-18 15:41:27,987 - INFO - Ýlerleme kaydedildi: 46/273
-2025-03-18 15:41:27,987 - INFO - Sonraki þirket için 14.1 saniye bekleniyor...
-2025-03-18 15:41:42,110 - INFO - [47/273] Ýþleniyor: D.K. MFG SP. Z O.O.
-2025-03-18 15:41:42,110 - INFO - Aranan þirket: D.K. MFG SP. Z O.O.
-2025-03-18 15:41:46,461 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:42:00,922 - WARNING - Hiçbir geçerli link bulunamadý
-2025-03-18 15:42:01,012 - INFO - Ýlerleme kaydedildi: 47/273
-2025-03-18 15:42:01,013 - INFO - Sonraki þirket için 13.2 saniye bekleniyor...
-2025-03-18 15:42:14,172 - INFO - [48/273] Ýþleniyor: DCS / SIGMA SAFETY
-2025-03-18 15:42:14,172 - INFO - Aranan þirket: DCS / SIGMA SAFETY
-2025-03-18 15:42:18,213 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:42:33,933 - WARNING - Hiçbir geçerli link bulunamadý
-2025-03-18 15:42:34,043 - INFO - Ýlerleme kaydedildi: 48/273
-2025-03-18 15:42:34,044 - INFO - Sonraki þirket için 12.2 saniye bekleniyor...
-2025-03-18 15:42:46,250 - INFO - [49/273] Ýþleniyor: DEMAR
-2025-03-18 15:42:46,251 - INFO - Aranan þirket: DEMAR
-2025-03-18 15:42:50,104 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:43:02,288 - WARNING - Hiçbir geçerli link bulunamadý
-2025-03-18 15:43:02,395 - INFO - Ýlerleme kaydedildi: 49/273
-2025-03-18 15:43:02,395 - INFO - Sonraki þirket için 13.4 saniye bekleniyor...
-2025-03-18 15:43:15,832 - INFO - [50/273] Ýþleniyor: DEZHOU HUAYUAN ECO-TECHNOLOGY CO., LTD.
-2025-03-18 15:43:15,833 - INFO - Aranan þirket: DEZHOU HUAYUAN ECO-TECHNOLOGY CO., LTD.
-2025-03-18 15:43:19,769 - INFO - Çerez bildirimi bulunamadý veya zaten kabul edildi: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Accept all') or contains(text(), 'Kabul et') or contains(text(), 'I agree') or contains(text(), 'Akzeptieren')]"}
-  (Session info: chrome=134.0.6998.89)
-Stacktrace:
-	GetHandleVerifier [0x00007FF7820AFE45+26629]
-	(No symbol) [0x00007FF782016010]
-	(No symbol) [0x00007FF781EA931A]
-	(No symbol) [0x00007FF781EFF8E7]
-	(No symbol) [0x00007FF781EFFB1C]
-	(No symbol) [0x00007FF781F534A7]
-	(No symbol) [0x00007FF781F27AEF]
-	(No symbol) [0x00007FF781F50169]
-	(No symbol) [0x00007FF781F27883]
-	(No symbol) [0x00007FF781EF0550]
-	(No symbol) [0x00007FF781EF1803]
-	GetHandleVerifier [0x00007FF7824072BD+3529853]
-	GetHandleVerifier [0x00007FF78241DA22+3621858]
-	GetHandleVerifier [0x00007FF7824124D3+3575443]
-	GetHandleVerifier [0x00007FF78217B77A+860474]
-	(No symbol) [0x00007FF78202088F]
-	(No symbol) [0x00007FF78201CBC4]
-	(No symbol) [0x00007FF78201CD66]
-	(No symbol) [0x00007FF78200C2C9]
-	BaseThreadInitThunk [0x00007FFE4E13E8D7+23]
-	RtlUserThreadStart [0x00007FFE4EB3BF6C+44]
-
-2025-03-18 15:43:31,991 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Varolan bir baðlantý uzaktaki bir ana bilgisayar tarafýndan zorla kapatýldý', None, 10054, None))': /session/f8fb7c3a2805698ec187d939f203f392
+2025-03-19 05:19:15,100 - ERROR - Tüm arama kutusu seçicileri baþarýsýz oldu
+2025-03-19 05:19:15,237 - INFO - Ýlerleme kaydedildi: 1041/1082
+2025-03-19 05:19:15,237 - INFO - Sonraki þirket için 12.8 saniye bekleniyor...
+2025-03-19 05:19:24,420 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Varolan bir baðlantý uzaktaki bir ana bilgisayar tarafýndan zorla kapatýldý', None, 10054, None))': /session/ba8b54286091da3db400c763906d1e40
