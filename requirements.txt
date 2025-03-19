@@ -1,0 +1,13 @@
+pandas>=1.0.0
+numpy>=1.18.0
+PyPDF2>=3.0.0
+selenium>=4.0.0
+beautifulsoup4>=4.9.0
+webdriver-manager>=3.8.0
+openpyxl>=3.0.0
+regex>=2022.0.0
+requests>=2.25.0
+lxml>=4.6.0
+tqdm>=4.62.0
+python-dotenv>=0.20.0
+chardet>=4.0.0
