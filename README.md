@@ -43,8 +43,8 @@ This project contains a collection of scrapers designed to extract company infor
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/trade-fair-scraper.git
-   cd trade-fair-scraper
+   git clone https://github.com/BatuhanElitok/NobelExpo_CaseStudy.git
+   cd NobelExpo_CaseStudy
    ```
 2. Create and activate a virtual environment (recommended):
    ```
