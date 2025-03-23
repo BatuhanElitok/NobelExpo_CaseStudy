@@ -43,8 +43,8 @@ Bu proje, çeşitli ticaret fuarlarındaki katılımcı listelerinden şirket bi
 
 1. Bu repoyu klonlayın:
    ```
-   git clone https://github.com/kullaniciadi/trade-fair-scraper.git
-   cd trade-fair-scraper
+   git clone https://github.com/BatuhanElitok/NobelExpo_CaseStudy.git
+   cd NobelExpo_CaseStudy
    ```
 2. Sanal bir ortam oluşturun ve etkinleştirin (önerilen):
    ```
